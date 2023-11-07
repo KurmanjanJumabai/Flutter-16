@@ -21,9 +21,6 @@ class sabakPage extends StatefulWidget {
 class _sabakPageState extends State<sabakPage> {
   @override
   Widget build(BuildContext context) {
-    return Placeholder(
-        appBar: AppBar(
-      title: Texts("Тапшырма 2"),
-    ));
+    return const Scaffold();
   }
 }
