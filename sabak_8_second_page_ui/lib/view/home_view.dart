@@ -28,8 +28,10 @@ class _HomeViewState extends State<HomeView> {
                       height: 100,
                       child: CircleAvatar(
                         backgroundImage: AssetImage('assets/p-8.jpg'),
-                      ),
-                    ),
+                        Positioned(
+                        IconButton(onPressed: (),{}, icon: Icon(Icons.arrow_back_ios),),
+                        ),
+                    ),),
                     SizedBox(height: 10),
                     Text(
                       'Welcome Amelia Roe!',
